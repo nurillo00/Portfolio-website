@@ -1,0 +1,51 @@
+.do {
+
+    margin-bottom: 150px;
+
+    .do-wrap {
+        display: flex;
+        align-items: center;
+        gap: 0 32px;
+
+        h3 {
+            width: 330px;
+            color: #33323D;
+            font-family: 'Ibarra Real Nova';
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 42px;
+            letter-spacing: -0.357px;
+        }
+
+        hr {
+            width: 534px;
+            height: 1px;
+            opacity: 0.15;
+            background: #33323D;
+        }
+
+        a {
+            width: 162px;
+            height: 48px;
+            padding: 17px 30px;
+            border: 1px solid #33323D;
+            color: #33323D;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        a:hover {
+            opacity: 0.6;
+        }
+
+        a:active {
+            opacity: 0.4;
+        }
+    }
+
+}

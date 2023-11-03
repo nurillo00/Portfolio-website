@@ -1,0 +1,38 @@
+.footer {
+    padding: 25px 0;
+    background: #33323D;
+
+    .footer-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer-box {
+            display: flex;
+            align-items: center;
+            gap: 0 48px;
+        }
+
+        .footer-list {
+            display: flex;
+            align-items: center;
+            gap: 0 42px;
+
+            a {
+                color: #FFF;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+        }
+
+        .link-list {
+            display: flex;
+            align-items: center;
+            gap: 0 30px;
+        }
+    }
+}
