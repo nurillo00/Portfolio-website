@@ -1,0 +1,62 @@
+.home-hero {
+
+    padding: 245px 753px 0 0;
+    margin-bottom: 150px;
+    background-image: url(../../../src/assets/img/home-hero-bc.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+
+    .home-hero-box {
+        width: 445px;
+        height: 357px;
+        padding: 56px 55px 0 0;
+        background: #FAFAFA;
+
+        h1 {
+            width: 400px;
+            margin-bottom: 53px;
+            color: #33323D;
+            font-family: 'Ibarra Real Nova';
+            font-size: 47px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 50px;
+            letter-spacing: -0.446px;
+        }
+
+        .home-hero-wrap {
+            display: flex;
+            align-items: center;
+        }
+
+        .home-hero-wrap:hover {
+            opacity: 0.6;
+        }
+
+        .home-hero-wrap:active {
+            opacity: 0.4;
+        }
+
+        img {
+            width: 48px;
+            height: 48px;
+            background: #203A4C;
+        }
+
+        a {
+            display: flex;
+            width: 200px;
+            height: 48px;
+            padding: 17px 60px;
+            background: #203A4C;
+            color: #FFF;
+            text-align: center;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+    }
+}
