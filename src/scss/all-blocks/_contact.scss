@@ -44,7 +44,7 @@
         gap: 0 32px;
     }
 
-    h5 {
+    a {
         color: #33323D;
         font-family: 'Ibarra Real Nova';
         font-size: 32px;
@@ -52,6 +52,14 @@
         font-weight: 400;
         line-height: 36px;
         letter-spacing: -0.286px;
+    }
+
+    a:hover {
+        opacity: 0.6;
+    }
+
+    a:active {
+        opacity: 0.4;
     }
 
     p {
